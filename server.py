@@ -11,7 +11,6 @@ while True:
     num, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
     num2 = int(num) # change type of variable from string to integer
     
-    
     def fac(n):  # factorial function
       num2 = 1
       while n >= 1:
